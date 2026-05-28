@@ -45,7 +45,7 @@ std::string InputText() {
     return text;
 }
 
-int32_t InputInt() {
+int32_t InputNumber() {
     int32_t shift{0};
     bool isValid{false};
 

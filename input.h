@@ -6,5 +6,5 @@
 #include <cstdint>
 
 std::string InputText();
-int32_t InputInt();
+int32_t InputNumber();
 #endif

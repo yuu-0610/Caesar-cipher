@@ -15,10 +15,10 @@ void Encrypt(const std::string& text, int shift){
     for(std::size_t i = 0; i < result.size(); ++i) {
 
         //大文字を暗号化
-        if(result[i] >= 'A' && result[i] <= 'Z') {
+        if((result[i] >= 'A') && (result[i] <= 'Z')) {
             result[i] = (result[i] - 'A' + shift) % 26 + 'A';
         //小文字を暗号化
-        }else if(result[i] >= 'a' && result[i] <= 'z') {
+        }else if((result[i] >= 'a') && (result[i] <= 'z')) {
         result[i] = (result[i] - 'a' + shift) % 26 + 'a';
         }
     }

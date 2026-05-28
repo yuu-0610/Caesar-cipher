@@ -9,7 +9,7 @@ int main() {
     SetConsoleCP(CP_UTF8);
 
     std::string text{InputText()};
-    int32_t shift{InputInt()};
+    int32_t shift{InputNumber()};
     Encrypt(text,shift);
 
     return 0;
